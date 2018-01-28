@@ -200,3 +200,17 @@ body {
 .card-vorstellung {
   max-width: 1280px;
 }
+
+/* Table styling on the termine page */
+
+.table-termine>tbody>tr>th:first-child, .table-termine>tbody>tr>td:first-child {
+  width: 30%;
+}
+
+.table-termine>tbody>tr>th:last-child, .table-termine>tbody>tr>td:last-child {
+  width: 70%;
+}
+
+.table-termine {
+  width: 100%;
+}
