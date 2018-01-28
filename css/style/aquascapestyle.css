@@ -1,0 +1,171 @@
+/* Custom edits for the Aquascape website */
+
+/* Add highlight color that works with the navbar */
+
+.nav>li>a.current {
+  color: rgb(255, 152, 0);
+}
+
+/* Add highlight to footer */
+
+.container-footer .current {
+  color: rgb(76, 175, 80);
+}
+
+/* Added subpage highlight */
+
+.dropdown-content>li>a.current {
+  color: rgb(76, 175, 80);
+}
+
+/* Remove border radius from footer, this is not a card */
+
+.card-footer {
+  border-radius: 0;
+  position: relative;
+  z-index: 30;
+}
+
+/* Make the button smaller in the footer */
+
+button.btn-footer {
+  padding: 0.5rem 1rem;
+}
+
+/* Make container padding smaller */
+
+.container-footer {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+/* Fix shadow between navbar and content */
+
+.navbar {
+  position: fixed;
+  z-index: 50;
+}
+
+/* Add correct margin to the top of the content */
+
+.container-main {
+  padding-top: calc(112.817px + 32px);
+  position: relative;
+  z-index: 1;
+  padding-bottom: 2rem;
+}
+
+/* Remove top margin from all elements inside container for visual consistency */
+
+.container>*:first-child {
+  margin-top: 0;
+}
+
+.container>*:last-child {
+  margin-bottom: 0;
+}
+
+/* Center the navbar's elements on small screens */
+
+@media screen and (max-width: 609px) {
+  .navbar nav.col, .navbar .col {
+    display: flex;
+  }
+  .navbar nav.col>.nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navbar .col h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Body */
+
+body {
+  background: url(/img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Prevent the home card stack from being full width */
+
+.row-nowrap {
+  flex-wrap: nowrap;
+}
+
+/* Enable full width cards on home screen on small devices */
+
+@media screen and (max-width: 950px) {
+  .row-nowrap {
+    flex-wrap: wrap;
+  }
+}
+
+/* Show the Wallpaper on smaller screen sizes */
+
+@media screen and (max-width: 1750px) {
+  .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    margin: 0;
+  }
+  .col:last-child {
+    margin-bottom: 0rem;
+  }
+}
+
+/* Break the contact information on smaller screens */
+
+@media screen and (max-width: 950px) {
+  .row-contact {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .row-contact>.col:last-child {
+    max-width: 60%;
+  }
+}
+
+.row-contact:last-child>.col:last-child {
+  margin-bottom: 0;
+}
+
+/* Make the avatars on the about page round */
+
+.card-img-about {
+  width: 250px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .card-img-about {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .col-img-about {
+    display: flex;
+  }
+}
+
+/* Make the dropdown menus seem like they are actually buttons */
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: rgb(255, 152, 0)!important;
+}
+
+.nav-link:hover>a {
+  color: rgb(255, 152, 0) !important;
+}

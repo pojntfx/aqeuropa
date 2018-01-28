@@ -1,0 +1,34 @@
+/* Layout */
+
+@import url("/css/layout/container.css");
+@import url("/css/layout/grid.css");
+@import url("/css/layout/alignment.css");
+/* Content */
+
+@import url("/css/content/img.css");
+@import url("/css/content/typography.css");
+/* Components */
+
+@import url("/css/components/alerts.css");
+@import url("/css/components/buttons.css");
+@import url("/css/components/card.css");
+@import url("/css/components/nav.css");
+/* Utils */
+
+@import url("/css/utlis/utlis.css");
+@import url("/css/utlis/colors.css");
+@import url("/css/utlis/spacing.css");
+/* Default style */
+
+@import url("/css/style/shadows.css");
+/* Specific style for the docs */
+
+@import url("/css/style/style.css");
+/* Specific style for aquascape */
+
+@import url("/css/style/aquascapestyle.css");
+/* Reset */
+
+body {
+  margin: 0;
+}
