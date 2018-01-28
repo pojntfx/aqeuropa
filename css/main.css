@@ -21,9 +21,7 @@
 /* Default style */
 
 @import url("/css/style/shadows.css");
-/* Specific style for the docs */
 
-@import url("/css/style/style.css");
 /* Specific style for aquascape */
 
 @import url("/css/style/aquascapestyle.css");

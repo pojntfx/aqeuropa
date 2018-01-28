@@ -3,8 +3,17 @@ title: 'News'
 layout: 'home'
 ---
 
-<h1>Neueste Meldungen</h1>
-<h3>Neue Blogbeitraege bei Garnlio https://www.garnelio.de/blog/krebse/die-krebspest-im-aquarium</h3>
-<h3>Rabatte bei Onlineshops! https://www.zooroyal.de/</h3>
-<h3>Wettbewerbssieger Hoyer verkauft Becken bei eBay! https://www.pinterest.com/pin/672654894317464378/</h3>
-<h3>Neue Bucephalandren bei Dennerle! http://dennerle.com/de/service/pflanzendatenbank</h3>
+<h3 class="mb-2">Wir informieren Sie zu allen aktuellen Entwicklungen in der Aquaristikbranche.</h3>
+
+{% include card-news.html
+  title="Neue Blogbeitraege bei Garnelio"
+  href="https://www.garnelio.de/blog/krebse/die-krebspest-im-aquarium"%}
+{% include card-news.html
+  title="Rabatte bei Onlineshops!"
+  href="https://www.zooroyal.de/"%}
+{% include card-news.html
+  title="Wettbewerbssieger Hoyer verkauft Becken bei eBay!"
+  href="https://www.pinterest.com/pin/672654894317464378/"%}
+{% include card-news.html
+  title="Neue Bucephalandren bei Dennerle!"
+  href="http://dennerle.com/de/service/pflanzendatenbank"%}
