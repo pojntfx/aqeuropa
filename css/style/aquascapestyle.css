@@ -158,6 +158,7 @@ body {
 }
 
 /* Make the dropdown menus seem like they are actually buttons */
+
 .dropdown-toggle {
   cursor: pointer;
 }
@@ -168,4 +169,33 @@ body {
 
 .nav-link:hover>a {
   color: rgb(255, 152, 0) !important;
+}
+
+/* Extend the .card-img class with a bottom and top option */
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-bottom: -5px;
+}
+
+.card-img-bottom {
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: -5px;
+}
+
+/* Make the navbar usable on touch devices */
+
+.dropdown-toggle:active .dropdown-wrapper {
+  display: block;
+}
+
+/* Make the cards on the 'Vorstellung' page a bit smaller */
+.card-vorstellung {
+  max-width: 1280px;
 }
