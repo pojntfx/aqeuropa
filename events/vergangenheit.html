@@ -4,3 +4,40 @@ layout: 'home'
 ---
 <h3>Wir waren zuletzt auf der Heimtiermesse Karlsruhe, haben viele Staende besuchst und Leute kennengelernt. Hier einige Bilder dazu:
 </h3>
+{% include figure.html 
+    imgsrc='Messe1.jpg'
+    imgalt='Ein Bild der Messe'
+    caption= ''
+    %}
+    {% include figure.html 
+        imgsrc='Messe2.jpg'
+        imgalt='Ein Bild der Messe'
+        caption= ''
+        %}
+        {% include figure.html 
+            imgsrc='Messe3.jpg'
+            imgalt='Ein Bild der Messe'
+            caption= ''
+            %}
+            {% include figure.html 
+                imgsrc='Messe4.jpg'
+                imgalt='Ein Bild der Messe'
+                caption= ''
+                %}
+                {% include figure.html 
+                    imgsrc='Messe5.jpg'
+                    imgalt='Ein Bild der Messe'
+                    caption= ''
+                    %}
+
+
+
+<div class="col col-4 mb-2">
+    {% include card-site.html 
+        imgsrc='preview-garnelio.jpg'
+        imgalt='Screenshot von Messenhomepage'
+        title='Tierisch Gut'
+        description='Die Heimtiermesse in Karlsruhe'
+      %}
+
+  </div>
