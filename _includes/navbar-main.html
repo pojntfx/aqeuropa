@@ -16,7 +16,7 @@
           <li class="nav-link dropdown-toggle">
             <a href="{{ site.baseurl }}/news.html" class="link-light {% if page.url == "/news.html" %}current{% endif %}">News</a>
           </li>
-          <li class="nav-link dropdown-toggle">
+          <li class="nav-link dropdown-toggle {% if page.url == "/infos/vorstellung.html" %}current{% endif %}{% if page.url == "/infos/vertreter.html" %}current{% endif %}{% if page.url == "/infos/ursprung.html" %}current{% endif %}">
             Infos
             <div class="dropdown-wrapper">
               <ul class="card nav dropdown-content">
@@ -32,7 +32,7 @@
               </ul>
             </div>
           </li>
-          <li class="nav-link dropdown-toggle">
+          <li class="nav-link dropdown-toggle {% if page.url == "/events/termine.html" %}current{% endif %}{% if page.url == "/events/vergangenheit.html" %}current{% endif %}">
             Events
             <div class="dropdown-wrapper">
               <ul class="card nav dropdown-content">
