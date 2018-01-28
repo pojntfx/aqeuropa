@@ -2,42 +2,52 @@
 title: 'Vergangenheit'
 layout: 'home'
 ---
-<h3>Wir waren zuletzt auf der Heimtiermesse Karlsruhe, haben viele Staende besuchst und Leute kennengelernt. Hier einige Bilder dazu:
+<h3 class="mb-2">Wir waren zuletzt auf der Heimtiermesse Karlsruhe, haben viele Stände besucht und Leute kennengelernt. Nachfolgend einige Impressionen.
 </h3>
-{% include figure.html 
-    imgsrc='Messe1.jpg'
-    imgalt='Ein Bild der Messe'
-    caption= ''
-    %}
-    {% include figure.html 
-        imgsrc='Messe2.jpg'
-        imgalt='Ein Bild der Messe'
-        caption= ''
-        %}
+
+<div class="row row-nowrap">
+    <div class="col-4">
         {% include figure.html 
-            imgsrc='Messe3.jpg'
-            imgalt='Ein Bild der Messe'
-            caption= ''
+            imgsrc='post-img-messe-1.jpg'
+            imgalt='Mehrere Aquarien'
+            caption= 'Mehrere Aquarien'
             %}
-            {% include figure.html 
-                imgsrc='Messe4.jpg'
-                imgalt='Ein Bild der Messe'
-                caption= ''
-                %}
-                {% include figure.html 
-                    imgsrc='Messe5.jpg'
-                    imgalt='Ein Bild der Messe'
-                    caption= ''
-                    %}
+    </div>
+    <div class="col-4">
+        {% include figure.html 
+            imgsrc='post-img-messe-2.jpg'
+            imgalt='Ein Blick von oben'
+            caption= 'Ein Blick von oben'
+            %}
+    </div>
+    <div class="col-4">
+        {% include figure.html 
+            imgsrc='post-img-messe-3.jpg'
+            imgalt='Nahaufnahme eines Aquariums'
+            caption= 'Nahaufnahme eines Aquariums'
+            %}
+    </div>
+</div>
 
+<div class="row row-nowrap">
+    <div class="col-6">
+        {% include figure.html 
+            imgsrc='post-img-messe-4.jpg'
+            imgalt='Eine Ausstellung von Aquariumzubehoer'
+            caption= 'Eine Ausstellung von Aquariumzubehör'
+            %}
+    </div>
+    <div class="col-6">
+        {% include figure.html 
+            imgsrc='post-img-messe-5.jpg'
+            imgalt='Der Stand eines Aquarienherstellers'
+            caption= 'Der Stand eines Aquarienherstellers'
+            %}
+    </div>
+</div>
 
-
-<div class="col col-4 mb-2">
-    {% include card-site.html 
-        imgsrc='preview-garnelio.jpg'
-        imgalt='Screenshot von Messenhomepage'
-        title='Tierisch Gut'
-        description='Die Heimtiermesse in Karlsruhe'
-      %}
-
-  </div>
+<div class="wrapper">
+    <a href="https://www.tierischgut-karlsruhe.de/website/home/index.jsp" class="btn align-center">
+        <button type="button" class="btn btn-primary">Zur Messewebsite</button>
+    </a>
+</div>
