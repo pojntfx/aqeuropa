@@ -23,7 +23,12 @@ PATH=/home/yourusername/.gem/ruby/yourrubyversion/bin:$PATH
 bundle install
 
 # Build the site on the preview server:
+<<<<<<< HEAD
  
+=======
+bundle exec jekyll serve
+
+>>>>>>> ae00c2215e7f01e05271dc864fa2669b1c4bf0e6
 # Now browse to http://localhost:4000
 ```
 
