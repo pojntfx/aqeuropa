@@ -1,5 +1,18 @@
 /* Custom edits for the Aquascape website */
 
+/* Add a margin to every button on the button demo page except for
+the last one */
+
+.wrapper-wrap-margins>*:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* Add a margin to the bottom of each button */
+
+.wrapper-wrap-margins>a {
+  margin-bottom: 1rem;
+}
+
 /* Add highlight color that works with the navbar */
 
 .nav>li>a.current, .nav>li.current {
@@ -28,8 +41,9 @@
 
 /* Make the button smaller in the footer */
 
-button.btn-footer {
+.btn-footer {
   padding: 0.5rem 1rem;
+  margin-bottom: 1.25rem;
 }
 
 /* Make container padding smaller */
@@ -213,4 +227,18 @@ body {
 
 .table-termine {
   width: 100%;
+}
+
+/* Make the iframe full width */
+
+.iframe-anfahrt {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+/* Add a bottom margin to every news except the last one */
+
+.card-news:not(:last-child) {
+  margin-bottom: 2rem;
 }
