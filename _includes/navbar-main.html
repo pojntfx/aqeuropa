@@ -1,0 +1,55 @@
+<header class="navbar bg-primary sdw-a-1">
+  <div class="container text-light">
+    <div class="row">
+      <!-- Brand -->
+      <div class="col">
+        <h1>
+          <a href="{{ site.baseurl }}/index.html" class="link-light">Aqueuropa</a>
+        </h1>
+      </div>
+      <!-- Navigation -->
+      <nav class="col">
+        <ul class="nav">
+          <li class="nav-link">
+            <a href="{{ site.baseurl }}/index.html" class="link-light {% if page.url == "/" %}current{% endif %}">Home</a>
+          </li>
+          <li class="nav-link dropdown-toggle">
+            <a href="{{ site.baseurl }}/news.html" class="link-light {% if page.url == "/news.html" %}current{% endif %}">News</a>
+          </li>
+          <li class="nav-link dropdown-toggle">
+            Infos
+            <div class="dropdown-wrapper">
+              <ul class="card nav dropdown-content">
+                <li>
+                  <a href="{{ site.baseurl }}/infos/vorstellung.html" class="link-dark {% if page.url == "/infos/vorstellung.html" %}current{% endif %}">Vorstellung</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/infos/vertreter.html" class="link-dark {% if page.url == "/infos/vertreter.html" %}current{% endif %}">Vertreter</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/infos/ursprung.html" class="link-dark {% if page.url == "/infos/ursprung.html" %}current{% endif %}">Ursprung</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-link dropdown-toggle">
+            Events
+            <div class="dropdown-wrapper">
+              <ul class="card nav dropdown-content">
+                <li>
+                  <a href="{{ site.baseurl }}/events/termine.html" class="link-dark {% if page.url == "/events/termine.html" %}current{% endif %}">Termine</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/events/vergangenheit.html" class="link-dark {% if page.url == "/events/vergangenheit.html" %}current{% endif %}">Vergangenheit</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-link dropdown-toggle">
+            <a href="{{ site.baseurl }}/ueber-uns.html" class="link-light {% if page.url == "/ueber-uns.html" %}current{% endif %}">&#220;ber uns</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
