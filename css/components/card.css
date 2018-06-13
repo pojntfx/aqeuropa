@@ -39,12 +39,12 @@
 
 /* A a margin to each button for responsiveness */
 
-.card-actions>a>button {
+.card-actions > a > button {
   margin-bottom: 1rem;
 }
 
 /* Enable multiple buttons without glitching */
 
-.card-actions>a:not(:last-child) {
+.card-actions > a:not(:last-child) {
   margin-right: 1rem;
 }

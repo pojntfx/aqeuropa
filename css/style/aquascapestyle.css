@@ -3,19 +3,20 @@
 /* Add a margin to every button on the button demo page except for
 the last one */
 
-.wrapper-wrap-margins>*:not(:last-child) {
+.wrapper-wrap-margins > *:not(:last-child) {
   margin-right: 1rem;
 }
 
 /* Add a margin to the bottom of each button */
 
-.wrapper-wrap-margins>a {
+.wrapper-wrap-margins > a {
   margin-bottom: 1rem;
 }
 
 /* Add highlight color that works with the navbar */
 
-.nav>li>a.current, .nav>li.current {
+.nav > li > a.current,
+.nav > li.current {
   color: rgb(255, 152, 0);
 }
 
@@ -27,7 +28,7 @@ the last one */
 
 /* Added subpage highlight */
 
-.dropdown-content>li>a.current {
+.dropdown-content > li > a.current {
   color: rgb(76, 175, 80);
 }
 
@@ -71,21 +72,22 @@ the last one */
 
 /* Remove top margin from all elements inside container for visual consistency */
 
-.container>*:first-child {
+.container > *:first-child {
   margin-top: 0;
 }
 
-.container>*:last-child {
+.container > *:last-child {
   margin-bottom: 0;
 }
 
 /* Center the navbar's elements on small screens */
 
 @media screen and (max-width: 609px) {
-  .navbar nav.col, .navbar .col {
+  .navbar nav.col,
+  .navbar .col {
     display: flex;
   }
-  .navbar nav.col>.nav {
+  .navbar nav.col > .nav {
     margin-left: auto;
     margin-right: auto;
   }
@@ -145,12 +147,12 @@ body {
 }
 
 @media screen and (min-width: 950px) {
-  .row-contact>.col:last-child {
+  .row-contact > .col:last-child {
     max-width: 60%;
   }
 }
 
-.row-contact:last-child>.col:last-child {
+.row-contact:last-child > .col:last-child {
   margin-bottom: 0;
 }
 
@@ -178,10 +180,10 @@ body {
 }
 
 .nav-link:hover {
-  color: rgb(255, 152, 0)!important;
+  color: rgb(255, 152, 0) !important;
 }
 
-.nav-link:hover>a {
+.nav-link:hover > a {
   color: rgb(255, 152, 0) !important;
 }
 
@@ -217,11 +219,13 @@ body {
 
 /* Table styling on the termine page */
 
-.table-termine>tbody>tr>th:first-child, .table-termine>tbody>tr>td:first-child {
+.table-termine > tbody > tr > th:first-child,
+.table-termine > tbody > tr > td:first-child {
   width: 30%;
 }
 
-.table-termine>tbody>tr>th:last-child, .table-termine>tbody>tr>td:last-child {
+.table-termine > tbody > tr > th:last-child,
+.table-termine > tbody > tr > td:last-child {
   width: 70%;
 }
 
