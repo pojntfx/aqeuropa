@@ -1,8 +1,22 @@
+# Meta
+title: Eluseum Aqueropa
+author: pojntfx
+email: felix@pojtinger.com
+description: >-
+  A website with everything you could possibly want to know about aquatics.
+
+# Config
 baseurl: ""
-exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "node_modules"]
+url: "https://aqeuropa.tk/"
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
-      layout: "home"
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-admin
+jekyll_admin:
+  hidden_links:
+    - datafiles # We do not have any data files currently
