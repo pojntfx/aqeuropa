@@ -17,7 +17,7 @@ a.btn {
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 1rem;

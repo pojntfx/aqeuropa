@@ -9,23 +9,23 @@
 }
 
 .align-center {
-  margin-left: auto!important;
-  margin-right: auto!important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Justification */
 
 .justify-top {
-  margin-top: auto!important;
+  margin-top: auto !important;
 }
 
 .justify-bottom {
-  margin-bottom: auto!important;
+  margin-bottom: auto !important;
 }
 
 .justify-center {
-  margin-top: auto!important;
-  margin-bottom: auto!important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 
 /* Float */
